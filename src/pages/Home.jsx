@@ -3,6 +3,9 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { AboutSection } from "@/components/AboutSection";
+import { SkillsSection } from "@/components/SkillsSection";
+import { Education } from "@/components/Education";
+import { ProjectsSection } from "@/components/ProjectsSection";
 
 export const Home = () => {
   return (
@@ -21,6 +24,9 @@ export const Home = () => {
       <main>
         <Hero />
         <AboutSection />
+        <Education />
+        <SkillsSection />
+        <ProjectsSection />
       </main>
 
       {/* Footer */}
