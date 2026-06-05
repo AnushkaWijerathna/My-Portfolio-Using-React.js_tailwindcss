@@ -6,6 +6,8 @@ import { AboutSection } from "@/components/AboutSection";
 import { SkillsSection } from "@/components/SkillsSection";
 import { Education } from "@/components/Education";
 import { ProjectsSection } from "@/components/ProjectsSection";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
 
 export const Home = () => {
   return (
@@ -27,9 +29,13 @@ export const Home = () => {
         <Education />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
 
       {/* Footer */}
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };

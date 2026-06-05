@@ -64,11 +64,20 @@ const projects = [
 const inProgressProjects = [
   {
     id: 1,
-    title: "AI Interview Mocking Platform",
+    title: "Apply & Track",
     description:
-      "An interactive web app that simulates technical interviews using LLMs to provide real-time feedback and scoring.",
-    tags: ["Next.js", "TailwindCSS", "OpenAI API", "PostgreSQL"],
-    githubUrl: "https://github.com/AnushkaWijerathna/ai-mock-interview",
+      "A platform to manage job applications and track their status.",
+    tags: ["Next.js", "Better-Auth", "React", "TailwindCSS", "MongoDB"],
+    githubUrl: "https://github.com/AnushkaWijerathna/apply-n-track.git",
+  },
+  {
+    id: 2,
+    title: "Food delivery app",
+    description:
+      "A platform for browsing restaurants, ordering food, and tracking deliveries",
+    tags: ["Java", "Spring Boot", "React", "MongoDB"],
+    githubUrl:
+      "https://github.com/AnushkaWijerathna/Ecommerce-app-with-frontend-using-Spring-boot.git",
   },
   // Add more ongoing projects here...
 ];
@@ -157,11 +166,11 @@ export const ProjectsSection = () => {
             <div className="flex items-center justify-center gap-4 mb-8">
               {/* Green Dimming/Pulsing Bullet Point */}
               <span className="relative flex h-4 w-4">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-4 w-4 bg-emerald-500"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-4 w-4 bg-primary"></span>
               </span>
               <h2 className="text-2xl md:text-3xl font-bold text-center">
-                Currently <span className="text-emerald-500">Building</span>
+                Currently <span className="text-primary">Building</span>
               </h2>
             </div>
 
@@ -169,7 +178,7 @@ export const ProjectsSection = () => {
               {inProgressProjects.map((project, key) => (
                 <div
                   key={key}
-                  className="bg-card p-6 rounded-lg shadow-xs border border-emerald-500/30 hover:border-emerald-500/70 transition-colors duration-300 flex flex-col justify-between"
+                  className="bg-card p-6 rounded-lg shadow-xs border border-primary/30 hover:border-primary/70 transition-colors duration-300 flex flex-col justify-between"
                 >
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-foreground">
