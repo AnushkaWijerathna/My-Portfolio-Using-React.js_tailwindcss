@@ -57,25 +57,27 @@ const projects = [
     tags: ["React Native", "Expo", "TypeScript", "Firebase"],
     githubUrl:
       "https://github.com/AnushkaWijerathna/movie-app-using-typescript-and-expo-react.git",
+  },{
+    id: 7,
+    title: "Apply & Track",
+    description:
+      "A platform to manage job applications and track their status.",
+    tags: ["Next.js", "Better-Auth", "React", "React DnD kit", "TailwindCSS", "MongoDB"],
+     image: "/Projects/image.png",
+    demoUrl: "https://apply-n-track.vercel.app/",
+    githubUrl: "https://github.com/AnushkaWijerathna/apply-n-track.git",
   },
 ];
 
 // --- Currently Building Projects Array ---
 const inProgressProjects = [
+  
   {
     id: 1,
-    title: "Apply & Track",
+    title: "Patient Management System",
     description:
-      "A platform to manage job applications and track their status.",
-    tags: ["Next.js", "Better-Auth", "React", "TailwindCSS", "MongoDB"],
-    githubUrl: "https://github.com/AnushkaWijerathna/apply-n-track.git",
-  },
-  {
-    id: 2,
-    title: "Food delivery app",
-    description:
-      "A platform for browsing restaurants, ordering food, and tracking deliveries",
-    tags: ["Java", "Spring Boot", "React", "MongoDB"],
+      "A platform for managing patient information, appointments, and medical records.",
+    tags: ["Java", "Spring Boot", "Docker", "AWS", "Kafka", "MySQL"],
     githubUrl:
       "https://github.com/AnushkaWijerathna/Ecommerce-app-with-frontend-using-Spring-boot.git",
   },
